@@ -39,6 +39,7 @@ At Activity:
                 return times.text;
             }
         };
+		//You'd better sort the data from large to small !!!
         myAdapter.setData(times);//must set adapter's data
         arcView.setMaxNum(5);//the max piece of sector  optional
         arcView.setOthersText("Others");//the text of others  optional
