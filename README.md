@@ -43,4 +43,5 @@ At Activity:
         arcView.setMaxNum(5);//the max piece of sector  optional
         arcView.setOthersText("Others");//the text of others  optional
         arcView.setRadius(150);//set radius  optional
+		arcView.setColors(new int[]{getResources().getColor(R.color.green),getResources().getColor(R.color.colorAccent)});//set colors  optional
 ```
